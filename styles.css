@@ -1,0 +1,87 @@
+html {
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    background-image: url("Images/bg.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.system {
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    align-items: center;
+}
+
+#sun {
+    height: 400px;
+    margin: 0;
+}
+
+.planets {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+div > img {
+    display: block !important;
+    max-width: 100% !important;
+}
+
+#mercury {
+    width: 2.75rem;
+    height: 2.75rem;
+}
+
+#venus {
+    width: 5.218rem;
+    height: 5.218rem;
+}
+
+#earth {
+    position: relative;
+    width: 6.228rem;
+    height: 8.228rem;
+    top: -1rem;
+}
+
+#earth-caption {
+    position: relative;
+    top: -1rem;    
+}
+
+#mars {
+    width: 4.39rem;
+    height: 4.62rem;
+}
+
+#jupiter {
+    width: 8.55rem;
+    height: 7.55rem;
+}
+
+#saturn {
+    width: 8.1rem;
+    height: 8.1rem;
+}
+
+#uranus {
+    width: 4.88rem;
+    height: 4.88rem;
+}
+
+#neptune {
+    width: 5.063rem;
+    height: 5.063rem;
+}
